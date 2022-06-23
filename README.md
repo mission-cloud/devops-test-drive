@@ -17,7 +17,9 @@ Using the [PokeAPI](https://pokeapi.co/) create a list of Pokemon and each of th
 `{"Bulbasaur": ["razor-wind", "swords-dance"]}`
 
 ### Infra
-Now that you have code and can build it, create a repository for it's artifact ie: container image in ECR.
+Now that you have code and can build it, create a repository for it's artifact using your choice of IaC tool.
+Decide on how you will run this code in the context of an AWS service.  
+ie: ECR repo to push your container image to so your code can run on ECS/Lambda.
 
 ### DevOps
 Create a CICD configuration file (yaml or similar) that will: 
